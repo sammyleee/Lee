@@ -1,0 +1,247 @@
+GitHub 婴幼儿语音 / 音素 / 咿语 相关仓库清单
+  检索日期：2026-09-17
+检索方式：GitHub Search API，30 组关键词（infant baby child speech phoneme babbling IPA transcription fNIRS infant EEG MMR LENA CHILDES canonical babbling 等），按更新时间倒序
+候选池 479 个 → 剔重、剔同名噪声（VR 眼动项目 "Project Babble"、bubble babble 编码、营销站等 130+ 个）→ 人工筛出以下 30 个
+① 婴儿言语的听觉脑机制 — 最贴你的研究方向
+      仓库
+      语言
+      ★
+      最后推送
+      内容与用途
+      GiselaGovaart/pnMMR
+      HTML/R
+      0
+      2026-04-28
+      论文 Infant Brain Responses in Speech Perception: A Quantitative Review of the Factors Influencing the Polarity of the Mismatch Response 的全部代码。含 446 KB 汇总数据表 table_all_2025_input-to-clean.csv + 清洗后 table_pnMMR_2025_clean.csv + pnMMR_stats.Rmd。等于一份现成的 MMR 文献数据库，可直接查"哪些因素决定 MMR 极性"
+      Ignaciagothe/tda-eeg-audio
+      Jupyter
+      1
+      2026-04-01
+      45 名 3–5 月龄婴儿、1416 段记录，47 通道 EEG @250 Hz，对比慢速 vs 快速听觉刺激；拓扑数据分析（持续同调）+ 随机森林分类 + 置换检验。直击你的"听觉/言语节律"方向
+      wangjinvandy/infant_fMRI_lateralization…
+      MATLAB
+      0
+      2023-07-21
+      论文 Left-lateralization of the STG during speech processing in sleeping infants predicts language skills in kindergarten 的代码。含首层/组层 SPM12（改造过 spm_hrf.m 成婴儿 HRF）、AFNI 取峰值体素、marsbar 提 beta。与你已有的偏侧化指数 LI 链路直接对应
+      evareisenberger/InfantEEGAnalyses
+      MATLAB
+      0
+      2026-02-20
+      婴儿 hdEEG 听觉加工分析管线：ERP + 时频 TF + 试次间相位一致性 ITPC；纯音 1000 Hz，2 周 / 6 月 / 12 月三个时点。Slurm 集群作业脚本 + 本地统计脚本，注释完整。可作方法学模板
+      elizljohnson-projects/project-eeg-infant-high-freq（+ -ml 姊妹库）
+      MATLAB/Jupyter
+      3
+      2025-10-17
+      论文 High-frequency broadband activity detected noninvasively in infants distinguishes wake from sleep states 的代码。为你"睡/醒状态必须记录"这条提供硬支撑方法
+      ananya1965/Senior-Thesis-Code
+      HTML
+      0
+      2020-05-12
+      本科论文 Investigating the Relationship Between fNIRS Object Decoding and Language Development in Pre-Linguistic Infants。前语言期婴儿 fNIRS 物体解码 ↔ 语言发展，思路可迁移
+② 婴儿 EEG 分析管线与可复现性
+      仓库
+      语言
+      ★
+      最后推送
+      内容与用途
+      Donders-Institute/infant-cluster-effectsize
+      MATLAB
+      12
+      2024-01-30
+      Meyer et al. (2021) Developmental Cognitive Neuroscience 配套：BIDS 格式化 + 聚类置换检验 + 效应量报告。还带 9 月龄婴儿 EEG 原始/处理数据的 DOI。你要提高统计可复现性，这是标准答案
+      scott-huberty/IBIS-EEG
+      Python
+      1
+      2025-04-28
+      Infant Brain Imaging Study（IBIS）EEG 数据的分析工具集
+      mkhanbagi/infant-EEG-MVPA-invariance-project
+      MATLAB
+      1
+      2025-11-16
+      婴儿 EEG 预处理 + 时间分辨解码的可复现管线（EEGLAB + CoSMoMVPA + R）
+      rokemHB/EEG_artifact_classification_ML_DL
+      Python
+      1
+      2025-04-03
+      论文 Evaluating Machine- and Deep Learning Approaches for Artifact Detection in Infant EEG 的代码。婴儿 EEG 伪迹检测，你采数据时能直接用
+      TommasoGhilardi/Statistics-in-Motion
+      MATLAB
+      2
+      2026-07-29
+      婴儿运动系统是否基于转移概率预测动作（EEG）。节律/预测编码相关
+③ 婴儿 fNIRS 与开放数据集
+      仓库
+      语言
+      ★
+      最后推送
+      内容与用途
+      oladopierala/Exploration
+      MATLAB
+      1
+      2023-11-20
+      婴儿 fNIRS 在无约束自然互动中采集的分析代码（婴儿—家长互动）。范式贴近生态效度研究
+      OpenNeuroDatasets/ds005106
+      —
+      1
+      2025-03-05
+      OpenNeuro 开放数据集：200 Objects Infants EEG，可直接下载复用
+      kiralynnashton/Infant_mvpa_vision
+      Jupyter
+      0
+      2024-03-23
+      婴儿 EEG 的 MVPA 分析 + 与语言能力、SES 变量回归 + 与人工神经网络对比
+      DCAN-Labs/BIBSnet
+      Python
+      13
+      2026-08-30
+      婴儿脑 MRI 的 BIDS App：nnU-Net 解剖分割 + 脑膜提取，婴儿专用训练模型。做婴儿影像预处理绕不开
+      kvttt/4DInfantAtlas
+      Python
+      5
+      2025-09-08
+      ISBI 2024 论文：生成解剖真实的 4D 婴儿脑图谱（含组织图），GAN 方法
+④ 咿语与婴儿发声自动分析
+      仓库
+      语言
+      ★
+      最后推送
+      内容与用途
+      AnneSWarlaumont/CountInfantSyllables
+      C
+      0
+      2016-12-19
+      自动数婴儿发声里的规范音节（canonical）与总音节。Warlaumont 是该领域正牌学者，这套指标是咿语研究的事实标准
+      AnneSWarlaumont/BabbleNN
+      Matlab
+      6
+      2022-09-30
+      规范咿语发展的脉冲神经网络模型
+      AnneSWarlaumont/infant-vocal-foraging
+      MATLAB
+      2
+      2019-09-16
+      用"觅食"框架分析终日家庭录音中的婴儿与成人发声
+      spagliarini/Infant-vocalization-space-Interspeech2022
+      Python
+      2
+      2022-06-10
+      Interspeech 2022 论文：LENA 切分 + OpenSMILE (MFCC) → UMAP / t-SNE 婴儿发声空间 + 聚类统计。含完整验证与模态标签流程
+      spagliarini/infant-vocalizations-UMAP
+      Python
+      2
+      2022-11-21
+      上一项的 UMAP 分析部分
+      uiuc-sst/infant-vocalize
+      Python
+      4
+      2021-05-20
+      把婴儿发声分成 babble / cry / fuss / laugh / hic 五类；LDA + OpenSMILE 特征、CNN、CNN+HMM 三套对照。还有"妈妈与儿童语音转写"姊妹库
+      arunps12/VocalBaby / HindiBabyNet
+      Jupyter
+      0
+      2026-02-18 / 2026-07-23
+      婴儿与照护者发声的端到端 ML 分析；印地语的婴儿指向语 vs 成人指向语声学对比
+      goyama930/infant-intrinsic-vocalizations
+      R
+      0
+      2026-03-17
+      婴儿自发性发声（intrinsic vocalizations）分析
+⑤ 语料库 · 音素转写 · 临床音系评估
+      仓库
+      语言
+      ★
+      最后推送
+      内容与用途
+      NKU-HLT/ChildTalk
+      —
+      6
+      2026-08-21
+      ACL 2026 Findings。多方言中文儿童语音对话语料库：标准普通话 + 8 个官话方言片 + 闽南语 + 晋语；保留全长度儿童—照护者对话；转写忠实记录儿童特有发音、不流畅、非言语事件。非商业学术许可，HuggingFace 可下载。前作 ChildMandarin（3–5 岁，397 名儿童，41.25 小时）
+      balaji1312/Jibo_Kids
+      —
+      8
+      2026-04-16
+      The JIBO Kids Corpus（JASA Express Letters 2024）发布页：教室环境的儿童—机器人交互语音数据集 + 儿童 ASR 基线
+      SatwikDutta/All-in-one-Handbook-for-Child-Speech-Corpus
+      —
+      4
+      2025-07-18
+      SLaTE 2025 教程论文：儿童语音语料采集与整理最佳实践——WHO / WHAT / WHEN / WHERE、知情同意与伦理协议、语料质检与标注。你的采集方案设计可直接引这一篇
+      zgraper/phonemefix
+      TypeScript
+      0
+      2025-12-02
+      音频 → IPA 音素（wav2vec2）→ 应用儿童音系规则（滑音化 /w/→/r/、塞化 /s/→/t/、辅音丛简化）→ 修正后音素 → 文本（T5）。"儿童音素错误自动识别与归类"的完整开源实现
+      JoBeaMi/SOPhIA
+      —
+      0
+      2026-05-09
+      临床音系评估平台（欧洲葡语）：自动/手工 IPA 输入 → 生成每个儿童的音韵剖面（指标、音素清单、音韵过程、模式）；支持跨儿童分布分析。作者明确"不诊断、不建议干预"——工具定位很干净
+      c876333/…Mandarin-Speaking-Children
+      —
+      0
+      2024-10-02
+      华语儿童构音音系快速筛查，基于郑静宜《儿童华语语音综合测验》(2013)。中文临床评估可直接参考
+      jasbi/functionwords
+      HTML
+      3
+      2026-08-06
+      儿童言语与儿童指向语中功能词发展的语料研究
+      emucla/context-study
+      R
+      1
+      2025-05-16
+      UCLA：终日家庭录音中婴儿指向语 vs 成人指向语的语境与音高
+      Kvonholzen/AbInitioSegmentationIDS-ADS
+      TeX
+      0
+      2025-10-21
+      论文 Ab initio word segmentation in infant- and adult-directed speech 的代码与可重复分析
+      Divija-Dewan/childes-babylm / babylm-org/speech-babylm-dev
+      Python
+      0/1
+      2026-06-30 / 2026-06-23
+      在 CHILDES 儿童指向语上训练 GPT-2 / 语音版 BabyLM 基线
+      elinlarsen/WordSegComprehension
+      HTML
+      7
+      2018-07-24
+      用音系转写的儿童指向语测试分词算法，并对照报告的婴儿词汇理解数据
+附一：工具类（G2P / 音素识别，非婴幼儿专用）
+      仓库
+      语言
+      ★
+      最后推送
+      用途
+      Mobile-Artificial-Intelligence/babylon
+      C++
+      41
+      2026-04-14
+      Babylon.cpp：字素→音素（G2P）+ TTS 的 C/C++ 库，DeepPhonemizer 的 ONNX 移植。可嵌进你自己的实验程序
+      ZFTurbo/Children-Speech-Recognition-Challenge-Solution
+      Python
+      4
+      2026-05-10
+      儿童语音识别挑战赛方案，音素赛道第 4 名、词赛道第 7 名
+      drivendataorg/childrens-speech-recognition-benchmark-pub
+      Jupyter
+      3
+      2026-03-11
+      挑战赛官方教程代码（On Top of Pasketti）
+      SatwikDutta/LiteChildASR
+      —
+      3
+      2025-08-26
+      把 Whisper 改造成轻量、可端侧部署的儿童 ASR
+      juliacarbajal/spanish_phonologizer
+      Python
+      3
+      2018-11-22
+      CHILDES 西语语料的正字法 → 音系转写
+附二：被剔除的噪声（避免你重复踩）
+检索"babble"命中大量无关项目：Project-Babble（VR 眼动追踪）、artichoke/boba（bubble babble 二进制编码）、BabbleDocs、babbleclouds/*（越南营销）、ResoniteStopSRanipal / TrackerBridge（Quest 头显）、YunoHost-Apps/nepenthes_ynh。另有约 60 个"婴儿哭声分诊 App / 儿童情绪识别 / 儿童教育机器人"类学生项目，与语音知觉研究无方法学关系，未收录。
+建议的下一步
+1. GiselaGovaart/pnMMR — 先下那两个 CSV，看看能不能直接作为你 MMR 章节的文献底表
+2. Ignaciagothe/tda-eeg-audio — 45 名 3–5 月龄婴儿的快/慢速语音刺激 EEG，和你"节律"这条线最对口
+3. NKU-HLT/ChildTalk — 中文儿童语音语料，非商业学术可用；做中文儿童语音分析/训练这是目前最大的公开资源
+4. Donders-Institute/infant-cluster-effectsize — 把聚类置换检验 + 效应量纳入你的婴儿数据分析流程
